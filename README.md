@@ -1,18 +1,18 @@
 ![vue-logo](https://camo.githubusercontent.com/728ce9f78c3139e76fa69925ad7cc502e32795d2/68747470733a2f2f7675656a732e6f72672f696d616765732f6c6f676f2e706e67)
-#Table Vue Component
+Table Vue Component
 ---
-##Description
+Description
 ---
 Table Vue Component is a component with which you can quickly build reactive tables.
-##Installation
+Installation
 ---
-###First step
+**First step**
 >**npm**
 npm install tableVueComponent
 
 >**yarn**
 yarn add tableVueComponent
-###Second step
+**Second step**
 >**Global registration**
 Vue.use(VueTableDynamic)
 
@@ -28,7 +28,7 @@ Vue.use(VueTableDynamic)
 </script>
 ```
 
-##Props
+Props
 ---
 |Prop|Type|Default|Description|
 |:--:|:--:|:-----:|:---------:|
