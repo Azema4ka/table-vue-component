@@ -11,6 +11,7 @@ Installation
 >npm install tableVueComponent
 
 >yarn add tableVueComponent
+
 **Second step**
 >**Global registration**
 Vue.use(VueTableDynamic)
