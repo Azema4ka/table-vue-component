@@ -9,7 +9,7 @@ Installation
 ---
 **First step**
 >npm install tableVueComponent
-<br/>
+
 >yarn add tableVueComponent
 **Second step**
 >**Global registration**
