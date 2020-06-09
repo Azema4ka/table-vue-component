@@ -3,7 +3,7 @@ Table Vue Component
 ---
 Description
 ---
->Table Vue Component is a component with which you can quickly build reactive tables.
+Table Vue Component is a component with which you can quickly build reactive tables.
 
 Installation
 ---
