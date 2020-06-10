@@ -201,6 +201,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+button,
+input {
+	outline: none;
+	border: none;
+}
+
 .table-wrapper {
 	.checkbox-wrapper {
 		input {display: none;}
