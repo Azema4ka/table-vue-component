@@ -14,15 +14,15 @@ Installation
 
 **Second step**
 >**Global registration**
-Vue.use(VueTableDynamic)
+Vue.use(table-vue-component)
 
 >**Local registration**
 ```js
 <script>
-	import TableVueComponent from 'tableVueComponent';
+	import table-vue-component from 'table-vue-component';
 	export default: {
 		components: {
-			TableVueComponent
+			table-vue-component
 		}
 	}
 </script>
