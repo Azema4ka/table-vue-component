@@ -4,6 +4,7 @@
 Table Vue Component
 ---
 🖥Component Demonstration
+<img src="https://i.imgur.com/Opa9Zwb.png" width="800px"/>
 
 Description
 ---
