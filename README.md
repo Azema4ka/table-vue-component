@@ -12,7 +12,13 @@ Table Vue Component is a flexible component with which you can quickly build rea
 Installation
 ---
 **First step**
+<br/>
+Npm
 >npm install table-vue-component
+
+Yarn
+<br/>
+>yarn add table-vue-component
 
 **Second step**
 >**Local registration**
