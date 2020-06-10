@@ -1,6 +1,6 @@
 {
   "name": "table-vue-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Table Vue Component is a component with which you can quickly build reactive tables.",
   "main": "index.js",
   "scripts": {
