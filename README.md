@@ -9,9 +9,7 @@ Table Vue Component is a component with which you can quickly build reactive tab
 Installation
 ---
 **First step**
->npm install tableVueComponent
-
->yarn add tableVueComponent
+>npm install table-vue-component
 
 **Second step**
 >**Global registration**
