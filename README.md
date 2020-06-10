@@ -3,11 +3,9 @@
 
 Table Vue Component
 ---
+**Table Vue Component is a flexible component with which you can quickly build reactive tables.**
+<br/>
 <img src="https://i.imgur.com/Opa9Zwb.png" width="800px"/>
-
-Description
----
-Table Vue Component is a flexible component with which you can quickly build reactive tables.
 
 Installation
 ---
