@@ -71,8 +71,8 @@
 						:key="index"
 					>
 						<div class="checkbox-wrapper">
-							<input type="checkbox" :id="item.name" :value="item" v-model="deletItems">
-							<label :for="item.name"></label>
+							<input type="checkbox" :id="index + 'checkbox'" :value="item" v-model="deletItems">
+							<label :for="index + 'checkbox'"></label>
 						</div>
 					</div>
 				</div>
@@ -193,7 +193,7 @@ export default {
 		}
 	},
 	watch: {
-		sortActive(val) {
+		sortActive() {
 			this.data.sort(this.sort);
 		}
 	}
@@ -208,16 +208,17 @@ export default {
 
 button,
 input {
-	outline: none;
 	border: none;
+	outline: none;
 }
 
-button {cursor: pointer;}
+button {
+	cursor: pointer;
+}
 
 .table-wrapper {
 	.checkbox-wrapper {
 		input {display: none;}
-
 		input:checked + label {
 			background: #00A11E;
 			border: 1px solid #00A11E;
@@ -236,7 +237,6 @@ button {cursor: pointer;}
 				height: 100%;
 			}
 		}
-
 		label {
 			box-sizing: border-box;
 			cursor: pointer;
@@ -250,16 +250,13 @@ button {cursor: pointer;}
 			transition: 0.3s background ease, 0.3s border ease;
 		}
 	}
-
 	.header {
 		display: flex;
 		align-items: center;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
-
 		.dropMenu-wrapper {
 			position: relative;
-
 			.dropMenu_buttonDrop {
 				display: flex;
 				align-items: center;
@@ -270,19 +267,16 @@ button {cursor: pointer;}
 				background: none;
 				border: 1px solid #C6CBD4;
 				border-radius: 5px;
-
 				svg {
 					transition: 0.3s transform ease;
 					transform: rotate(90deg);
 				}
 			}
-
 			.dropMenu_buttonDropActive {
 				svg {
 					transform: rotate(-90deg);
 				}
 			}
-
 			.dropMenu {
 				z-index: 1;
 				position: absolute;
@@ -304,13 +298,11 @@ button {cursor: pointer;}
 					padding: 8px 0px;
 					&:hover {background: rgb(240, 240, 240);}
 				}
-
 				.dropMenu_boxSelected {
 					box-sizing: border-box;
 					display: flex;
 					align-items: center;
 					padding: 8px 0px 8px 17px;
-
 					.descript {
 						cursor: default;
 						margin-left: 13px;
@@ -320,7 +312,6 @@ button {cursor: pointer;}
 				}
 			}
 		}
-
 		.delete {
 			box-sizing: border-box; 
 			padding: 13px 12px;
@@ -329,7 +320,6 @@ button {cursor: pointer;}
 			border: 1px solid rgb(0,161,36);
 			font-size: 14px;
 			border-radius: 5px;
-
 			&:disabled {
 				color: #C6CBD4;
 				background: white;
@@ -337,15 +327,12 @@ button {cursor: pointer;}
 			}
 		}
 	}
-
 	.body {
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-around;
-
 		.columnUnique {
 			width: 100%;
-
 			.title {
 				display: flex;
 				align-items: center;
@@ -355,7 +342,6 @@ button {cursor: pointer;}
 				padding: 0px 20px;
 				border-bottom: 2px solid rgb(237,237,237);
 			}
-
 			.info {
 				.boxUnique {
 					display: flex;
@@ -366,10 +352,8 @@ button {cursor: pointer;}
 				}
 			}
 		}
-
 		.column {
 			width: 100%;
-
 			.title {
 				display: flex;
 				align-items: center;
@@ -378,7 +362,6 @@ button {cursor: pointer;}
 				font-weight: 500;
 				border-bottom: 2px solid rgb(237,237,237);
 			}
-
 			.info {
 				.box {
 					display: flex;
@@ -389,7 +372,6 @@ button {cursor: pointer;}
 			}
 		}
 	}
-
 	.warning {
 		display: flex;
 		align-items: center;
