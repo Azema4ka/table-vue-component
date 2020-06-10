@@ -3,7 +3,7 @@
 
 Table Vue Component
 ---
-🖥Component Demonstration - https://azema4ka.github.io/table-vue-component-demo/#/
+🖥Component Demonstration
 
 Description
 ---
