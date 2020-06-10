@@ -3,6 +3,8 @@
 
 Table Vue Component
 ---
+🖥Component Demonstration - https://azema4ka.github.io/table-vue-component-demo/#/
+
 Description
 ---
 Table Vue Component is a component with which you can quickly build reactive tables.
