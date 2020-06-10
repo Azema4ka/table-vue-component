@@ -13,18 +13,15 @@ Installation
 >npm install table-vue-component
 
 **Second step**
->**Global registration**
-Vue.use(table-vue-component)
-
 >**Local registration**
 ```js
 <script>
-	import table-vue-component from 'table-vue-component';
-	export default: {
-		components: {
-			table-vue-component
-		}
-	}
+  import Table from 'table-vue-component/Table.vue';
+  export default: {
+    components: {
+      Table
+    }
+  }
 </script>
 ```
 
