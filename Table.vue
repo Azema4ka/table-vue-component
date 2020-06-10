@@ -212,6 +212,8 @@ input {
 	border: none;
 }
 
+button {cursor: pointer;}
+
 .table-wrapper {
 	.checkbox-wrapper {
 		input {display: none;}
