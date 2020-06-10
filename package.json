@@ -1,0 +1,19 @@
+{
+  "name": "table-vue-component",
+  "version": "1.0.0",
+  "description": "Table Vue Component is a component with which you can quickly build reactive tables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azema4ka/table-vue-component.git"
+  },
+  "author": "azema4ka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azema4ka/table-vue-component/issues"
+  },
+  "homepage": "https://github.com/Azema4ka/table-vue-component#readme"
+}
