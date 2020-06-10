@@ -1,5 +1,6 @@
 <img src="https://camo.githubusercontent.com/728ce9f78c3139e76fa69925ad7cc502e32795d2/68747470733a2f2f7675656a732e6f72672f696d616765732f6c6f676f2e706e67" width="100px" alt="vue-logo"/>
 <br/>
+
 Table Vue Component
 ---
 Description
@@ -9,23 +10,18 @@ Table Vue Component is a component with which you can quickly build reactive tab
 Installation
 ---
 **First step**
->npm install tableVueComponent
-
->yarn add tableVueComponent
+>npm install table-vue-component
 
 **Second step**
->**Global registration**
-Vue.use(VueTableDynamic)
-
 >**Local registration**
 ```js
 <script>
-	import TableVueComponent from 'tableVueComponent';
-	export default: {
-		components: {
-			TableVueComponent
-		}
-	}
+  import Table from 'table-vue-component/Table.vue';
+  export default: {
+    components: {
+      Table
+    }
+  }
 </script>
 ```
 
